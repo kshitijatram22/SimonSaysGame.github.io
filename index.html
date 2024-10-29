@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="button">
+      <h1>Rules</h1>
+      <p></p>
+
+      <p>
+        <b>1. Starting the Game :</b> Press the start button to begin the game.
+        The first level will start.
+      </p>
+
+      <p>
+        <b>2. Watch the Pattern :</b> A colored button will flash, indicating
+        the sequence. Remember this color pattern as it grows each round.
+      </p>
+
+      <p>
+        <b>3. Repeat the Pattern :</b> Once the game flashes a sequence, it’s
+        your turn to click the buttons in the same order.
+      </p>
+
+      <p>
+        <b>4. Level Up:</b> If you correctly match the entire sequence, you’ll
+        level up. The game will then add one more color to the sequence.
+      </p>
+
+      <p>
+        <b>5. Game Over :</b> If you make a mistake, the game will display "Game
+        Over" along with your score. To play again, press the start button.
+      </p>
+
+      <p>
+        <b>6. Objective :</b> Try to complete as many levels as you can by
+        memorizing and repeating the sequence!
+      </p>
+
+      <button class="startBtn">Start Game</button>
+    </div>
+    <h1>Simon Says Game</h1>
+    <h4>Level</h4>
+    <div class="btnContainer">
+      <div class="row">
+        <div class="btn red" type="button" id="red"><b>Red</b></div>
+        <div class="btn green" type="button" id="green"><b>Green</b></div>
+      </div>
+      <div class="row">
+        <div class="btn blue" type="button" id="blue"><b>Blue</b></div>
+        <div class="btn purple" type="button" id="purple"><b>Violet</b></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
